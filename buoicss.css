@@ -1,0 +1,31 @@
+@font-face{
+    font-family: phatpro;
+    src: url(MilestoneFreeVersion-Script.otf);
+}
+h1{
+    font-family: phatpro;
+    font-size: 30px;
+}
+#main{
+    width: 200px;
+    margin: auto;
+    text-align: left;
+    padding-left: 20px;
+    border: 1px solid red;
+}
+.abc{
+    border-radius: 8px;
+    width: 180px;
+}
+.so2{
+    margin-top: 10px;
+
+}
+.nut{
+    border-radius: 4px;
+    color: cornsilk;
+    background-color: blue;
+}
+body{
+    background-color: cyan;
+}

@@ -1,0 +1,82 @@
+body{
+    background: url(hinhmeo.jpg) fixed center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /*tràn màn hình*/
+    text-align: center;
+    color: darkgrey;
+}
+.tieude{
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.459);
+}
+.main{
+    width: 80%;
+    padding: 1.5em 1.4em 1.5em;
+    background-color: rgba(0, 0, 0, 0.068);
+    border: #000 6px double;
+    box-shadow: -2px 7px 37px 8px rgba(0, 0, 0, 0.89);
+    margin: 0em auto;
+}
+.form-group{
+    display: flex;
+    justify-content: space-between;
+}
+.form-mid-w3ls{
+    flex-basis: 31.4%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;/*sắp xếp các nội dung theo chiều dọc*/
+}
+input{
+    width: 80%;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    border-bottom: 1px solid white;
+}
+.form-check{
+    margin-right: 0px;
+    display: inline-block;
+}
+.form-check-input{
+    text-align: left;
+    width: 30%;
+    height: 30%;
+}
+div{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+.form-check1{
+    display: inline-block;
+    width: 10%;
+}
+.parent-clss{
+    scroll-padding-bottom: 15px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+button{
+    margin-top: 20px;
+    text-transform: uppercase;
+    background: #fff;
+    color: #000;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+}
