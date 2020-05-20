@@ -1,0 +1,64 @@
+# Project: Project2
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = main.o person.o manager.o staff.o xemay.o menustaff.o menu.o menu1.o menu2.o xeoto.o menustaff1.o menutongmanager.o menu3.o
+LINKOBJ  = main.o person.o manager.o staff.o xemay.o menustaff.o menu.o menu1.o menu2.o xeoto.o menustaff1.o menutongmanager.o menu3.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = Project2.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+person.o: person.cpp
+	$(CPP) -c person.cpp -o person.o $(CXXFLAGS)
+
+manager.o: manager.cpp
+	$(CPP) -c manager.cpp -o manager.o $(CXXFLAGS)
+
+staff.o: staff.cpp
+	$(CPP) -c staff.cpp -o staff.o $(CXXFLAGS)
+
+xemay.o: xemay.cpp
+	$(CPP) -c xemay.cpp -o xemay.o $(CXXFLAGS)
+
+menustaff.o: menustaff.cpp
+	$(CPP) -c menustaff.cpp -o menustaff.o $(CXXFLAGS)
+
+menu.o: menu.cpp
+	$(CPP) -c menu.cpp -o menu.o $(CXXFLAGS)
+
+menu1.o: menu1.cpp
+	$(CPP) -c menu1.cpp -o menu1.o $(CXXFLAGS)
+
+menu2.o: menu2.cpp
+	$(CPP) -c menu2.cpp -o menu2.o $(CXXFLAGS)
+
+xeoto.o: xeoto.cpp
+	$(CPP) -c xeoto.cpp -o xeoto.o $(CXXFLAGS)
+
+menustaff1.o: menustaff1.cpp
+	$(CPP) -c menustaff1.cpp -o menustaff1.o $(CXXFLAGS)
+
+menutongmanager.o: menutongmanager.cpp
+	$(CPP) -c menutongmanager.cpp -o menutongmanager.o $(CXXFLAGS)
+
+menu3.o: menu3.cpp
+	$(CPP) -c menu3.cpp -o menu3.o $(CXXFLAGS)

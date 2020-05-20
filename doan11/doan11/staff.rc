@@ -1,0 +1,22 @@
+#include "person.h"
+class staff:public person{
+	public:
+		int check;
+		staff():person(){
+			this->check=0;
+		}
+		void input(){
+			person::input();
+			cout<<"So cho trong"<<endl;
+			cin>>check;
+		}
+		void output(){
+			person::output();
+			cout<<"so cho trong:"<<check<<endl;
+		}
+		void function(){
+			if(check>0){
+				cout<<"01292"<<endl;
+			}	
+		}
+};

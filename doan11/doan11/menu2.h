@@ -1,0 +1,2 @@
+void timkiemxemay();
+void timkiemxeoto();
