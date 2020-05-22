@@ -1,0 +1,17 @@
+div{
+    border: 1px solid red;
+    height: 80px;
+    width: 90px;
+}
+div p{
+    background: #00CCFF;
+    width: 80px;
+}
+div{
+    position: relative;
+}
+div p{
+    position: absolute;
+    right: 10px;
+    bottom: -20px;
+}

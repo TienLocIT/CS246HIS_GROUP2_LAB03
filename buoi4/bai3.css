@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.khoi{
+    width: 263px;
+}
+.hinh{
+    width: 263px;
+    height: 335px;
+    position: relative;
+}
+.hinh .layer1{
+    width: 263px;
+    height: 335px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.hinh .layer2{
+    width: 263px;
+    height: 335px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+.layer3{
+    width: 30px;
+}
+.hinh .layer3 {
+    position: absolute;
+    z-index: 3;
+    top: 5px;
+    right: 3px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.layer3 i{
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+.hinh:hover .layer2{
+    opacity: 1;
+    transition: 0.5s;
+}
+.hinh:hover .layer3{
+    opacity: 1;
+    transition: 0.5s;
+}
+.layer3 i{
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+.tieude{
+    margin-top: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #636e72;
+    display: inline-block;
+}
+.duoi .trai{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    font-family: tahoma;
+    margin-top: 10px;
+    float: left;
+}
+.trai .lop1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    color: gray;
+    font-size: 13px;
+}
+.trai .lop2{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    z-index: 2;
+    color: black;
+    font-size: 13px;
+}
+.trai:hover .lop1{
+    top:-10px;
+    transition: 0.4s;
+    opacity: 0;
+}
+.trai:hover .lop2{
+    top:0px;
+    transition: 0.4s;
+    opacity: 1;
+}
+.duoi .phai{
+    float: right;
+    margin-top: 5px;
+    width: 37px;
+}
+.phai .maudo{
+    width: 15px;
+    height: 15px;
+    background: brown;
+    border-radius: 50%;
+    float: left;
+}
+.phai .mauxanh{
+    width: 15px;
+    height: 15px;
+    background: rgba(0, 0, 255, 0.404);
+    border-radius: 50%;
+    float: right;
+}
+.khoi{
+    width: 263px;
+    float: left;
+    margin-right: 10px;
+}
+.main{
+    width: 1100px;
+    margin: auto;
+}
