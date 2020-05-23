@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>ReadBook</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Sach.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://code.jquery.com/jquery-latest.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header style="box-shadow: 0 1px 2px rgb(133, 127, 127);background-color: #ffffff;width: 100%;height: 50%;">
+        <div style="display: flex; width: 100%;height: 100%;" class="main-logo">
+            <div style="cursor: pointer;width: 40%;" class="logo">
+                <h3 style="font-family: 'Indie Flower', cursive;color: black;margin: 1% 5% 0% 15%;">ReadBook.com</h3>
+                <h5 style="font-family: 'Shadows Into Light', cursive;margin: -0.5% 5% 5% 30%;font-size: 0.8em;">Read &
+                    Review Book</h5>
+            </div>
+            <div style="width: 50%;display: flex;" class="menu">
+                <div class="tab">
+                    <li>
+                        <a style="margin-left: 5em;" href="#">
+                            <h6><i class="fa fa-book" aria-hidden="true"></i> Tổng Hợp Sách</h6>
+                        </a>
+                        <div class="tab-1">
+                            <ul>
+                                <li>
+                                    <a href="#">Cho Tôi Xin Một Vé Đi Tuổi Thơ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Cô Gái Đến Từ Hôm Qua</a>
+                                </li>
+                                <li>
+                                    <a href="#"> Tôi Thấy Hoa Vàng Trên Cỏ Xanh</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tôi Là Bêtô</a>
+                                </li>
+                                <li>
+                                    <a href="#">Còn Chút Gì Để Nhớ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Có Hai Con Mèo Ngồi Bên Cửa Sổ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Chú Bé Rắc Rối</a>
+                                </li>
+                                <li>
+                                    <a href="#">Bồ Câu Không Đưa Thư</a>
+                                </li>
+                                <li>
+                                    <a href="#">Mắt Biếc</a>
+                                </li>
+                                <li>
+                                    <a href="#">Con chó nhỏ mang giỏ hoa hồng </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+
+                </div>
+                <div style="margin-top: 1.3em;" class="tab">
+                    <li>
+                        <a href="">
+                            <h6 class="rvsach"><i class="fa fa-location-arrow" aria-hidden="true"></i> Review Sách</h6>
+                        </a>
+                    </li>
+
+                </div>
+                <div style="margin-top: 1.3em;" class="tab1">
+                    <li>
+                        <a href="">
+                            <h6><i class="fa fa-info" aria-hidden="true"></i> Infor</h6>
+                        </a>
+                        <div class="tab-2">
+                            <ul>
+                                <li>
+                                    <a href=""> Khánh</a>
+                                </li>
+                                <li>
+                                    <a href="">Chung</a>
+                                </li>
+                                <li>
+                                    <a href="">Hải</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </div>
+
+            </div>
+    </header>
+    <main style="width: 100%;background: #fcfaf6;">
+        <div style="width: 100%;" class="main-tab">
+            <div style="width: 90%;margin-left: 3em;" class="main-tab1">
+                <br>
+                <a href="">
+                    <h4 style="padding: 0.6%;background-origin: padding-box;background-color: orange;width: 19%;border-radius: 3%;margin-bottom: 3%;margin-left: 5%;"><a style="color: white;transition: 0.4s ease-in-out; overflow: hidden;" href=""> <strong> Thư Viện Sách</strong> </a></h4>
+                </a>
+                <h6 style="margin-left: 1em;">
+                    Top 10 tựa sách hay nhất của nhà văn Nguyễn Nhật Ánh
+                </h6>
+                <div style="width: 100%;margin-left: 1em;" class="pradar">
+                    <p>
+                        Nhắc đến các cuốn sách, tác phẩm nói về lứa tuổi học trò mộng mơ, tinh nghịch là chúng ta sẽ
+                        nghĩ ngay đến nhà văn Nguyễn Nhật Ánh, ông chính là cây bút đã gắn liền với rất nhiều thế hệ bạn
+                        trẻ yêu đọc sách tại Việt Nam.
+                    </p>
+                    <p>
+                        Mỗi cuốn sách của ông khi được ra mắt đều được đông đảo độc giả trẻ tuổi đón nhận và ủng hộ
+                        nhiệt tình. Sau đây, chúng tôi xin giới thiệu đến các bạn top 10 tựa sách hay nhất của nhà văn
+                        Nguyễn Nhật Ánh mà chúng ta không nên bỏ lỡ nhé.
+                    </p>
+                    <p>
+                        <div style="display:flex ;width: 100%;" class="pradar1">
+                            <div style="width: 80%;height: 40%;" class="pradar1-1">
+                                <h5 class="test1">1. Cho Tôi Xin Một Vé Đi Tuổi Thơ</h5>
+                                <p>
+                                    Cuốn sách <a style="color: orange !important;" href=""> Cho tôi xin một vé đi tuổi
+                                        thơ </a> được nhà văn Nguyễn Nhật Ánh ra mắt lần đầu vào năm 2008. Nội dung câu
+                                    chuyện sẽ đưa độc giả quay ngược lại tuổi thơ để cùng cảm nhận một tình bạn rất đáng
+                                    yêu của bốn người bạn nhỏ Tủn, Tí, Hải và Mùi.
+
+                                    Những kỷ niệm tuổi thơ lại ùa về với những trò chơi dân gian ngày bé, những sự đùa
+                                    nghịch phá phách, dại dột, và đặc biệt là những suy nghĩ, ước mơ ngây ngô của những
+                                    đứa trẻ… làm cho người đọc trải qua nhiều cảm xúc khác nhau, vui, buồn thậm chí có
+                                    cả sự lo lắng. Đây là một cuốn sách không chỉ dành riêng các bạn trẻ, mà các bậc cha
+                                    mẹ cũng có thể tìm đọc để hiểu rõ con em mình hơn.
+                                </p>
+                                <img style="width: 60%;margin-left: 11%;overflow: hidden;height: 55%;margin-bottom: 40%;"
+                                    src="https://www.sachhayonline.com/book/uploads/images/2019/11/1/27/cho-toi-mot-ve-di-tuoi-tho-1_600x943.jpg"
+                                    alt="">
+
+                    </p>
+
+                </div>
+                <div style="width: 30%;margin-left: 3%;" class="pradar1-2">
+                    <a href="">
+                        <h4 style="width: 60%;height: 3%; background-color: orange;text-align: center;border-radius: 3%;" class="rvsach1"><a style="color: white;transition: 0.4s ease-in-out;" href=""> <strong> Review Sách </strong> </a></h4>
+                    </a>
+                    <div style="display: flex;" class="pic">
+
+                        <img style="width: 30%;height: 20%;"
+                            src="https://www.sachhayonline.com/book/uploads/news/a_276153235_sachhaythaydoicuocdoi.jpg"
+                            alt="">
+                        <p style="width: 29em;">
+                            <a href="">Top 10 cuốn sách hay giúp thay đổi cuộc đời bạn</a>
+                        </p>
+
+                    </div>
+                    <div style="display: flex;" class="pic">
+
+                        <img style="width: 30%;height: 20%;"
+                            src="https://www.sachhayonline.com/book/uploads/news/a_1813106845_tieuthuyettrinhtham.jpg"
+                            alt="">
+                        <p style="width: 29em;">
+                            <a href="">Top 10 cuốn tiểu thuyết trinh thám nổi tiếng thế giới</a>
+                        </p>
+
+                    </div>
+                    <div style="display: flex;" class="pic">
+
+                        <img style="width: 30%;height: 20%;"
+                            src="https://www.sachhayonline.com/book/uploads/news/a_2139513214_truyencuoihay.jpg" alt="">
+                        <p style="width: 29em;">
+                            <a href="">Truyện cười hay</a>
+                        </p>
+
+                    </div>
+                    <div style="display: flex;" class="pic">
+
+                        <img style="width: 30%;height: 20%;"
+                            src="https://www.sachhayonline.com/book/uploads/news/a_577339923_sachhayonline.jpg" alt="">
+                        <p style="width: 29em;">
+                            <a href="">Top 10 trang web đọc sách online miễn phí dành cho mọt sách</a>
+                        </p>
+
+                    </div>
+                    <div style="display: flex;" class="pic">
+
+                        <img style="width: 30%;height: 20%;"
+                            src="https://www.sachhayonline.com/book/uploads/news/a_2117506207_sachngontinh.jpg" alt="">
+                        <p style="width: 29em;">
+                            <a href="">Top 10 truyện ngôn tình hay nhất nên đọc 1 lần trong đời</a>
+                        </p>
+
+                    </div>
+                    
+
+                  
+                    <img style="width: 100%;" src="https://www.sachhayonline.com/book/uploads/1604244752_sutichbanhchungbanhday.png" alt="">
+                    <img style="width: 100%;" src="https://www.sachhayonline.com/book/uploads/1337449505_truyencotichcaytretramdot.png" alt="">
+                    <img style="width: 100%;" src="https://www.sachhayonline.com/book/uploads/804637808_vanhocvietnam.png" alt="">
+                
+                </div>
+            </div>
+            <div style="width: 100%;" class="pradar1">
+               
+                <div style="width: 100%;" class="pradar1">
+                    <div style="width: 69%;height: 20%;margin-top: -8em;" class="pradar1-1">
+                        <h5 class="test2">2. Cô Gái Đến Từ Hôm Qua</h5>
+                        <p>
+                            <p>
+                                Cuốn truyện dài <a style="color: orange !important;" href=""> Cô gái đến từ hôm qua </a>
+                                được tác giả Nguyễn Nhật Ánh phát hành vào năm 1989. Tác phẩm nói về mối tình tuổi học
+                                trò của Anh Thư và Tiểu Li, tuy nhiên, sau khi lên cấp ba, anh chàng Anh Thư lại thơ
+                                thẩn trước cô bạn cùng lớp tên là Việt An.
+                            </p>
+                            <p>
+                                Câu chuyện được kể đan xen giữa quá khứ và hiện tại, khiến cho Thư luôn suy nghĩ và phân
+                                vân giữa những mối tình tuổi mới lớn của anh chàng.
+
+                            </p>
+                            <p>
+                                Cuốn sách đến nay đã tròn 30 năm được ra mắt, nó giúp cho người đọc gợi nhớ về những kỷ
+                                niệm đẹp thời học sinh ngày đó mà thế hệ học sinh ngày nay khó mà cảm nhận được.
+                            </p>
+                            <img style="width: 60%;margin-left: 11%;overflow: hidden;height: 55%;"
+                                src="https://www.sachhayonline.com/book/uploads/images/2019/11/1/27/co_gai_den_tu_hom_qua_1_600x968.jpg"
+                                alt="">
+
+                        </p>
+
+                    </div>
+                    <div style="width: 100%;" class="pradar1">
+                        <div style="width: 69%;height: 20%;" class="pradar1-1">
+                            <h5 class="test3">3. Tôi Thấy Hoa Vàng Trên Cỏ Xanh</h5>
+                            <p>
+                                Cuốn sách này bao gồm 81 chương, nội dung của tác phẩm kể về những đứa trẻ có một tuổi
+                                thơ khổ cực ở một làng quê, được viết thành rất nhiều những câu chuyện nhỏ của trẻ em
+                                được xảy ra trong ngôi làng đó như: chuyện về con cóc, con ma, công chúa và hoàng tử,
+                                ngoài ra là những câu chuyện chân thật về nạn đói, cháy nhà, lũ lụt, thiên tai…
+                            </p>
+                            <p>
+                                Có lẽ đây là một trong những tác phẩm hiếm hoi mà nhà văn Nguyễn Nhật Ánh đưa các nhân
+                                vật phản diện vào để làm rõ được những sự bất công, tàn ác trong câu chuyện này. Dù vậy,
+                                tác phẩm vẫn sẽ đem lại cho người đọc những sự thu hút, đáng yêu, hồn nhiên và nhiều
+                                tình huống bất ngờ, cảm động của những đứa trẻ, qua giọng văn rất gần gũi, thú vị của
+                                tác giả.
+
+                            </p>
+                            <img style="width: 60%;margin-left: 11%;overflow: hidden;height: 55%;"
+                                src="https://www.sachhayonline.com/book/uploads/images/2019/11/1/27/toi-thay-hoa-vang-tren-co-xanh-1_600x913.jpg"
+                                alt="">
+
+                            </p>
+
+                        </div>
+                        <div style="width: 69%;height: 20%;" class="pradar1-1">
+                            <h5 class="test4">4. Tôi Là Bêtô</h5>
+                            <p>
+                                Tôi Là Bêtô được nhà văn Nguyễn Nhật Ánh phát hành vào năm 2011. Trong tác phẩm này, tác
+                                giả đưa chúng ta vào thế giới của những chú cún giữa Bêtô với Laica. Chú chó Binô được
+                                sống tại nhà của cô chủ tên Ni. Chú chó đã phải trải qua rất nhiều câu chuyện ly kỳ và
+                                hấp dẫn, cho người đọc đi qua rất nhiều cung bậc cảm xúc khác nhau với chú chó bêtô này.
+                            </p>
+                            <p>
+                                Qua tác phẩm được nhân hóa này, tác giả Nguyễn Nhật Ánh muốn truyền tải những thông điệp
+                                về tình thương giữa con người và loài vật, được nhìn nhận dưới con mắt của một đứa trẻ
+                                con.
+                            </p>
+                            <img style="width: 60%;margin-left: 11%;overflow: hidden;height: 55%;"
+                                src="https://www.sachhayonline.com/book/uploads/images/2019/11/1/27/toi_la_beto_1_600x933.jpg"
+                                alt="">
+
+                            </p>
+
+                        </div>
+                        <div style="width: 69%;height: 20%;" class="pradar1-1">
+                            <h5 class="test5">5. Còn Chút Gì Để Nhớ</h5>
+                            <p>
+                                Cuốn sách này của tác giả Nguyễn Nhật Ánh sẽ đều gợi lại cho mỗi chúng ta đều những kỉ
+                                niệm đẹp đẽ về một thời tuổi trẻ, và đối với nhân vật Chương trong tác phẩm này cũng
+                                thế. Đối với anh chàng này, những kỷ niệm về thời đi học, rồi từng bước lên Sài Gòn lập
+                                nghiệp, những mối quan hệ bạn bè phức tạp… tất cả đều như hiện ra trước mắt Chương mỗi
+                                khi nhớ tới.
+                            </p>
+                            <p>
+                                Dù đã phải trải qua rất nhiều những biến cố và khó khăn, nhưng sau cùng, những tình bạn,
+                                những kỷ niệm của ngày nào luôn in đậm mãi trong tim của Chương và thôi thúc anh tìm về.
+                            </p>
+                            <img style="width: 60%;margin-left: 11%;overflow: hidden;height: 55%;"
+                                src="https://www.sachhayonline.com/book/uploads/images/2019/11/1/27/con-chut-gi-de-nho-1_500x858.jpg"
+                                alt="">
+
+                            </p>
+
+                        </div>
+                        <div style="width: 69%;height: 20%;" class="pradar1-1">
+                            <h5 class="test6">6. Có Hai Con Mèo Ngồi Bên Cửa Sổ</h5>
+                            <p>
+                                Chuyện kể về mối tình chàng mèo Gấu và nàng mèo Áo Hoa, cũng như tình bạn đẹp của mèo
+                                Gấu và chuột Tí Hon, chúng luôn quan tâm và chia sẻ cho nhau những câu chuyện buồn vui
+                                trong cuộc sống, luôn chăm lo, giúp đỡ nhau từ cái ăn cho đến cách để chống chọt và sinh
+                                tồn lâu dài.
+                            </p>
+                            <p>
+                                Các chú mèo và chú chuột trong tác phẩm này còn muốn truyền tải một thông điệp đến con
+                                người rằng tình yêu luôn luôn hiện hữu ở xung quanh chúng ta, nó không phân biệt cấp
+                                loài nào cả, vì tình yêu mà bất kể loài vật nào cũng sẽ có thêm động lực, sức mạnh phi
+                                thường để làm nên mọi chuyện.
+
+                            </p>
+                            <p>
+                                Ngoài ra, bên trong cuốn truyện này còn được minh họa bằng rất nhiều hình vẽ của họa sĩ
+                                Đỗ Hoàng Tường giúp cho tác phẩm của nhà văn Nguyễn Nhật Ánh thêm sinh động và lôi cuốn
+                                người đọc hơn.
+                            </p>
+                            <img style="width: 60%;margin-left: 11%;overflow: hidden;height: 55%;"
+                                src="https://www.sachhayonline.com/book/uploads/images/2019/11/1/27/co-hai-con-meo-ngoi-ben-cua-so-1_600x929.jpg"
+                                alt="">
+
+                            </p>
+
+                        </div>
+                        <div style="width: 69%;height: 20%;" class="pradar1-1">
+                            <h5 class="test7">7. Chú Bé Rắc Rối</h5>
+                            <p>
+                                Đúng như cái tựa đề của cuốn truyện này, tác giả đã xây dựng nên một cậu bé rắc rối, đã
+                                gặp phải không biết bao nhiêu chuyện dở khóc dở cười từ gia đình cho đến bạn bè. </p>
+                            <p>
+                                Nguyễn Nhật Ánh đã tạo nên một câu chuyện giữa những người bạn rất hồn nhiên vô tư như
+                                cũng rất ngỗ nghịch, được tác giả cài vào đó những tình tiết bất ngờ và thú vụ không
+                                kém, tất nhiên vẫn là giọng văn rất hóm hỉnh, hài hước mà tác giả thường viết về chủ đề
+                                tuổi học trò vô tư này.
+                            </p>
+                            <p>
+                                Đối với cuốn truyện Chú Bé Rắc Rối, nội dung tuy không quá phức tạp nhưng lại ẩn chứa
+                                trong đó rất nhiều thông điệp mang tính nhân văn. </p>
+                            <img style="width: 60%;margin-left: 11%;overflow: hidden;height: 55%;"
+                                src="https://www.sachhayonline.com/book/uploads/images/2019/11/1/27/chu_be_rac_roi_1_583x1000.jpg"
+                                alt="">
+
+                            </p>
+
+                        </div>
+                        <div style="width: 69%;height: 20%;" class="pradar1-1">
+                            <h5 class="test8">8. Bồ Câu Không Đưa Thư</h5>
+                            <p>
+                                Cuốn sách này của tác giả Nguyễn Nhật Ánh chắc có lẽ đã rất quen thuộc với nhiều người
+                                đọc, và nó đã được chuyển thể thành một bộ phim truyền hình. Nội dung tác phẩm nổi tiếng
+                                này kể về bộ ba bạn thân Xuyến, Thục và Cúc Hương. </p>
+                            <p>
+                                Sự xuất hiện của một lá thư làm quen trong ngăn bàn đã khiến cho cả ba phải bàn tán,
+                                luôn tò mò và suy đoán xem ai là người giấu mặt đứng đằng sau tất cả của trò chơi này,
+                                với sự trợ giúp nhiệt tình của anh chàng xấu xí hậu đậu Phán củi, càng làm cho câu
+                                chuyện trở nên thú vị hơn.
+
+                            </p>
+                            <p>
+                                Sau cùng, kết quả của cuộc truy lùng này lại gây ra nhiều rắc rối và những hiểu lầm đầy
+                                tại hại, cùng với đó là một cái kết bất ngờ và thú vị đang chờ đón các bạn tìm đọc để có
+                                thể tự khám phá ra câu trả lời cho những điều trên. </p>
+                            <img style="width: 60%;margin-left: 11%;overflow: hidden;height: 55%;"
+                                src="https://www.sachhayonline.com/book/uploads/images/2019/11/1/27/bo_cau_khong_dua_thu_570x1000.jpg"
+                                alt="">
+
+                            </p>
+
+                        </div>
+                        <div style="width: 69%;height: 20%;" class="pradar1-1">
+                            <h5 class="test9">9. Mắt Biếc</h5>
+                            <p>
+                                Đây có lẽ là một trong những tác phẩm được nhiều độc giả đánh giá là cuốn sách hay nhất
+                                của nhà văn Nguyễn Nhật Ánh. Nội dung của tác phẩm kể về mối tình tuổi học trò của đôi
+                                bạn trẻ Ngạn và Lan. Cả hai vốn đã quen biết nhau từ khi còn nhỏ, nhưng vì một chút ngạt
+                                ngùng khó nói mà tình cảm của Ngạn dành cho Lan không được nói ra và cứ thế trở thành
+                                một mối tình thầm lặng.
+                            </p>
+                            <p>
+                                Cho đến cả hai lớn lên, họ đều quyết định lên thành phố để học tập, tại đây, Lan bỗng
+                                thầm thương trộm nhớ anh chàng Dũng - đây là một chàng công tử con nhà giàu nhưng lại
+                                không đàng hoàng và thiếu đứng đắn, dù vậy trong lòng của Ngạn vẫn luôn có hình bóng của
+                                Lan và đành nén đau để chúc phúc cho người mình yêu thương.
+                            </p>
+                            <p>
+                                Còn đối với Lan, cô vẫn luôn tâm sự và chia sẻ với Ngạn mỗi lần cô bị Dũng làm tổn
+                                thương đến mình. Về sau, Lan bị Dũng ruồng bỏ dù cho khi ấy cô đã có bầu và sinh ra đứa
+                                con tên là Trà Long, dù không phải đứa con của mình, nhưng Ngạn vẫn hết lòng quan tâm và
+                                chăm sóc cho mẹ con của Lan. </p>
+                            <p>
+                                Xem thêm: <a style="color: orange !important;" href=""> Review Mắt Biếc Nguyễn Nhật Ánh
+                                    - Yêu và chẳng được yêu!</a>
+                            </p>
+                            <p>
+                                Khi đọc xong cuốn sách này, chắc hẳn người đọc sẽ có rất nhiều cảm xúc khó tả và tiếc
+                                nuối cho một mối tình không thành và một cái kết không được trọn vẹn...
+                            </p>
+                            <img style="width: 60%;margin-left: 11%;overflow: hidden;height: 55%;"
+                                src="https://www.sachhayonline.com/book/uploads/images/2019/11/1/27/mat-biec-1_579x1000.jpg"
+                                alt="">
+
+                            </p>
+
+                        </div>
+                        <div style="width: 69%;height: 20%;" class="pradar1-1">
+                            <h5 class="test10">10. Con chó nhỏ mang giỏ hoa hồng </h5>
+                            <p>
+                                <strong> Cuốn sách được tác giả Nguyễn Nhật Ánh viết </strong>, bao gồm năm chương với
+                                86 câu chuyện nói về số phận của năm chú chó có tên Haili, Batô, Suku, Êmê và Pig, chúng
+                                đều sống chung trong một ngôi nhà. Nội dung khắc họa rõ nét những mẩu chuyện sinh hoạt
+                                hàng ngày của năm chú chó với những người chủ của mình, bao gồm chị Ni, bố mẹ chị Ni và
+                                những vị khách đến nhà chơi đã tạo nên một thế giới đáng yêu, dễ thương trong mối quan
+                                hệ thân thiết của năm chú chó. </p>
+                            <p>
+                                Khi đọc cuốn sách này, chúng ta sẽ nhận ra rằng cuộc đời của mỗi chú chó Haili, Batô,
+                                Suku, Êmê và Pig cũng có nét tương tự như cuộc sống của con người xoay quanh về các vấn
+                                đề như chuyện tình bạn, tình yêu, lòng đam mê, sự dũng cảm, sự sợ hãi, và cả những ước
+                                mơ của mỗi người...
+                            </p>
+                            <p>
+                                Tất cả những điều này được nhà văn Nguyễn Nhật Ánh miêu tả và khắc hoạt đầy hài hước,
+                                sinh động qua ngòi bút của ông trong tác phẩm này. </p>
+                            <img style="width: 60%;margin-left: 11%;overflow: hidden;height: 55%;"
+                                src="https://www.sachhayonline.com/book/uploads/images/2019/11/1/27/con-cho-nho-mang-gio-hoa-hong-1_600x857.jpg"
+                                alt="">
+                            <p>
+                                Qua bài viết trên đây, chúng tôi đã giới thiệu đến các bạn top 10 tựa sách hay nhất của
+                                nhà văn Nguyễn Nhật Ánh. Mong rằng, khi được đọc những cuốn sách của tác giả Nguyễn Nhật
+                                Ánh, sẽ giúp cho bạn luôn yêu đời, lạc quan và bồi đắp thêm cho tâm hồn của bạn.
+                            </p>
+                            <p>Chúc các bạn thật nhiều niềm vui!</p>
+                            <p>
+                                Quay về Trang chủ : ReadBook.com
+                            </p>
+                            <img style="width: 90%;" src="https://www.sachhayonline.com/book/uploads/mua-sach-online-giam-gia-shook-fahasa.png" alt="">
+                            </p>
+
+                        </div>
+                    </div>
+                    <i class="fas fa-arrow-circle-up" class="icon"></i>
+                </div>
+    </main>
+    <hr style="color: orange;size: 10em;">
+    <hr>
+    <p style="margin: auto;text-align: center; width: 90%;"> Sachhayonline.com, đọc sách hay online miễn phí, thư viện sách hay miễn phí của bạn, sách hay nên đọc mỗi ngày, đọc sách gì, điểm tin sách, cafe sách, văn hoá và phong cách đọc sách, sách hay theo chủ đề, văn học, tiểu thuyết, sách kinh doanh, marketing, kỹ năng, tâm lý học, sách kinh điển mọi thời đại, review sách, và giới thiệu sách mới,...
+
+        Sách Hay Online | Giới Thiệu | CTV Viết Bài | Liên Hệ - Hotline 0986.456.288 - Email: sachhayonlinecom@gmail.com</p>
+<hr> <p style="margin: auto;text-align: center; width: 90%;" >Copyright © 2006-2019 Sachhayonline.com - All right reserved | Sách hay Online - Review sách hay!</p>
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="sach.js"></script>
+</body>
+
+</html>
