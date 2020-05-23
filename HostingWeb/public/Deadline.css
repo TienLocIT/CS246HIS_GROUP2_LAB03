@@ -1,0 +1,145 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+
+.menu{
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(to right,#FCA5F1,#B5FFFF);
+}
+.logo{
+margin-left: 60px;
+}
+.logo a{
+    height: 50px;
+    width: 50px;
+    background-color: antiquewhite;
+    float: left;
+    margin-top: 5px;
+    border-radius: 500px;
+}
+
+.logo a img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 55px;
+    margin: auto;
+}
+.lienhe a{
+    width: 112px;
+    height: 29px;
+    background-color: pink;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    font-family: open sans,arial,sans-serif;
+    float: right;
+    margin-top: 13px;
+    margin-right: 3%;
+    padding-top: 4px;
+}
+
+.anhdepcuocsong a{
+    float: right;
+    width: 221px;
+    height: 29px;
+    background-color: pink;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    font-family: open sans,arial,sans-serif;
+    margin-right: 1%;
+    margin-top: 16px;
+    padding-top: 3px;
+}
+a{
+    text-decoration: none;
+}
+.trangchu a{
+    float: right;
+    width: 140px;
+    height: 29px;
+    background-color: pink;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    font-family: open sans,arial,sans-serif;
+    margin-right: 1%;
+    margin-top: 17px;
+    padding-top: 3px;
+}
+.allpage img{width: 22%;
+    height: 22%;
+    
+transition: all 1s ease;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+border: 1px solid blueviolet;
+    border-radius: 8px;
+    
+}
+
+.allpage img:hover {
+    transform: scale(1.6,1.6);
+    -webkit-transform: scale(1.6,1.6);
+    -moz-transform: scale(1.6,1.6);
+    -o-transform: scale(1.6,1.6);
+    -ms-transform: scale(1.6,1.6);
+    box-shadow: 1px 1px 1px blueviolet;
+    margin-left: 2%;
+    }
+
+    .allpage{
+        background-color:peachpuff ;
+     
+        }
+.con{margin-left: 4.5%;}
+        .color{
+            height: 50px;
+            background-color:peachpuff;
+        }
+
+div .anh
+{
+    display: inline;
+    float: flex;
+    width: 20%;
+    height: 20%;
+  margin-right: 0.5%;
+}
+.bottom{
+    background-image: linear-gradient(to right,#FCA5F1,#B5FFFF);
+    height: 105px;
+    margin-top: 0px;
+}
+.bottom .thanhngu .noidung{
+    margin-top: 0px;
+    text-align: center;
+    width: 62%;
+    padding-top: 24px;
+    margin: auto;
+}
+.bottom .thanhngu .tacgia{
+    text-align: center;
+    margin-top: 7px;
+}
+.bottom .thanhngu p{
+    color: #006899 ;
+    font-size: 18px;
+}
+.bottom .logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 500px;
+    margin-left: 608px;
+}

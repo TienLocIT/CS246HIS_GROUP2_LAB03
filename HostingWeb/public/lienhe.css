@@ -1,0 +1,318 @@
+.menu{
+    width: 101%;
+    height: 60px;
+    background-image: linear-gradient(to right,#FCA5F1,#B5FFFF);
+    z-index:0;
+    margin-top: -8px;
+    margin-left: -5px;
+}
+.logo .logo-top{
+    height: 50px;
+    width: 50px;
+    background-color: antiquewhite;
+    float: left;
+    margin-top: 5px;
+    margin-left: 50px;
+    border-radius: 500px;
+}
+
+.logo a img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 55px;
+}
+.lienhe a{
+    width: 112px;
+    height: 29px;
+    background-color: pink;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    font-family: open sans,arial,sans-serif;
+    float: right;
+    margin-top: 13px;
+    margin-right: 3%;
+    padding-top: 4px;
+}
+.anhdepcuocsong a{
+    float: right;
+    width: 221px;
+    height: 29px;
+    background-color: pink;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    font-family: open sans,arial,sans-serif;
+    margin-right: 1%;
+    margin-top: 16px;
+    padding-top: 3px;
+}
+.trangchu a{
+    float: right;
+    width: 140px;
+    height: 29px;
+    background-color: pink;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    font-family: open sans,arial,sans-serif;
+    margin-right: 1%;
+    margin-top: 17px;
+    padding-top: 3px;
+}
+.lienhe1{
+    margin-top: 17px;
+}
+.boc{
+    margin-top: 50px;
+    background-color: pink;
+    
+    margin-top: -17px;
+    margin-left: -5px;
+    width: 101%;
+}
+.nhunhau img{
+border-radius:50%;
+-moz-border-radius:50%;
+-webkit-border-radius:50%;
+width: 90px;
+height: 90px;
+left:298px;
+top:87px;
+position: absolute;
+z-index: 2;
+}
+.nhunhau{
+width: 683px;
+height: 315px;
+font-family: 'Montserrat', 'Helvetica Neue', 'Arial', sans-serif;
+}
+.nhunhau div{
+border: 1px solid;
+border-color:white;
+border-radius: 10px;
+width: 546px;
+height:224px;
+background-color: white;
+position: absolute;
+top:132px;
+left:68.5px;
+z-index: 1;
+}
+.nhunhau div h3{
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 70px;
+    text-transform: uppercase;
+    
+}
+.nhunhau div h6{
+    color: orange;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 15px;
+    font-weight: 700;
+    gap: normal;
+}
+.nhunhau div p{
+    text-align: center;
+    font-size: 15px;
+}
+.nhunhau div p i{
+    width: 22px;
+    height: 15px;
+    color: orange;
+}
+.nhunhau2{
+width: 683px;
+height: 315px;
+font-family: 'Montserrat', 'Helvetica Neue', 'Arial', sans-serif;
+margin-left: 50px;
+}
+
+.nhunhau2 img{
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width: 90px;
+    height: 90px;
+    margin-left: 230px;
+    top:87px;
+    position: absolute;
+    z-index: 2;
+    }
+    .nhunhau2 div{
+     border: 1px solid;
+     border-color:white;
+    border-radius: 10px;
+    width: 546px;
+    height:224px;
+     background-color: white;
+     position: absolute;
+     top:132px;
+     z-index: 1;
+    }
+    .nhunhau2 div h3{
+        color: black;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: 70px;
+        text-transform: uppercase;
+        
+    }
+    .nhunhau2 div h6{
+        color: orange;
+        text-align: center;
+        margin-top: -30px;
+        font-size: 15px;
+        font-weight: 700;
+        gap: normal;
+    }
+    .nhunhau2 div p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .nhunhau2 div p i{
+        width: 22px;
+        height: 15px;
+        color: orange;
+    }
+    .lienhe2{
+        margin-top: 40px;
+    }
+    .nhunhau3 img{
+        border-radius:50%;
+        -moz-border-radius:50%;
+        -webkit-border-radius:50%;
+        width: 90px;
+        height: 90px;
+        left:298px;
+        top:382px;
+        position: absolute;
+        z-index: 2;
+        }
+        .nhunhau3 div{
+         border: 1px solid;
+         border-color:white;
+        border-radius: 10px;
+        width: 546px;
+        height:224px;
+         background-color: white;
+         position: absolute;
+         z-index: 1;
+         left:68.5px ;
+         top:429px;
+        }
+        .nhunhau3{
+            width: 683px;
+            height: 315px;
+            font-family: 'Montserrat', 'Helvetica Neue', 'Arial', sans-serif;
+            }
+            .nhunhau3 div h3{
+                color: black;
+                text-align: center;
+                font-size: 32px;
+                font-weight: 700;
+                margin-top: 70px;
+                text-transform: uppercase;
+                
+            }
+            .nhunhau3 div h6{
+                color: orange;
+                text-align: center;
+                margin-top: -30px;
+                font-size: 15px;
+                font-weight: 700;
+                gap: normal;
+            }
+            .nhunhau3 div p{
+                text-align: center;
+                font-size: 15px;
+            }
+            .nhunhau3 div p i{
+                width: 22px;
+                height: 15px;
+                color: orange;
+            }
+        .nhunhau4 img{
+            border-radius:50%;
+        -moz-border-radius:50%;
+        -webkit-border-radius:50%;
+        width: 90px;
+        height: 90px;
+        position: absolute;
+            z-index: 2;
+            top:385px;
+            margin-left: 230px;
+      
+        }
+        .nhunhau4{
+            width: 683px;
+            height: 315px;
+            margin-left: 52px;
+            font-family: 'Montserrat', 'Helvetica Neue', 'Arial', sans-serif;
+            }
+        .nhunhau4 div{
+            border: 1px solid;
+            border-color:white;
+           border-radius: 10px;
+           width: 546px;
+           height:224px;
+            background-color: white; 
+            position: absolute;
+            z-index: 1;
+            top:429px;
+        }
+        .nhunhau4 div h3{
+            color: black;
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700;
+            margin-top: 70px;
+            text-transform: uppercase;
+            
+        }
+        .nhunhau4 div p{
+            text-align: center;
+            font-size: 15px;
+        }
+        .nhunhau4 div p i{
+            width: 22px;
+            height: 15px;
+            color: orange;
+        }
+        .bottom{
+            background-image: linear-gradient(to right,#FCA5F1,#B5FFFF);
+        }
+        .bottom .thanhngu .noidung{
+            margin-top: 0px;
+            text-align: center;
+            width: 58%;
+            margin: auto;
+            padding-top: 24px;
+        }
+        .bottom .thanhngu .tacgia{
+            text-align: center;
+            margin-top: 7px;
+        }
+        .bottom .thanhngu p{
+            color: #006899 ;
+            font-size: 18px;
+        }
+        .bottom .logo{
+            height: 50px;
+            width: 50px;
+            border-radius: 500px;
+            margin: auto;
+        }
+        
