@@ -43,6 +43,15 @@ body{
     margin-right: 3%;
     padding-top: 4px;
 }
+.lienhe a:hover{
+    background-image: -webkit-radial-gradient(right,rgb(202, 66, 66),rgb(219, 219, 65));
+}
+.trangchu a:hover{
+    background-image: -webkit-radial-gradient(right,rgb(202, 66, 66),rgb(219, 219, 65));
+}
+.anhdepcuocsong a:hover{
+    background-image: -webkit-radial-gradient(right,rgb(202, 66, 66),rgb(219, 219, 65));
+}
 .anhdepcuocsong a{
     float: right;
     width: 221px;
