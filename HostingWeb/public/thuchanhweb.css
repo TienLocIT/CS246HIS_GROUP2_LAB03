@@ -1,17 +1,27 @@
-body{
-    box-sizing: border-box;
-    margin: 0px;
-}
+
 .menu{
     width: 100%;
     height: 60px;
     background-image: linear-gradient(to right,#FCA5F1,#B5FFFF);
     position: fixed;
-    z-index:0;
+    z-index:2;
+    margin-top: -8px;
+    top:0;
+    left: 0;
 }
-.logo{
+
 
 }
+#carouselId1{
+    margin-left: -33px;
+}
+#carouselId2{
+    margin-left: -33px;
+}
+#carouselId3{
+    margin-left: -33px;
+}
+=======
 .logo .logo-top{
     height: 50px;
     width: 50px;
@@ -21,11 +31,21 @@ body{
     margin-left: 50px;
     border-radius: 500px;
 }
-
+.trangchu:hover a{
+text-decoration: none;
+color: white;
+}
+.lienhe:hover a{
+    text-decoration: none;
+color: white;
+}
+.anhdepcuocsong:hover a{
+    text-decoration: none;
+color: white;
+}
 .logo a img{
     width: 100%;
     height: 100%;
-    overflow: hidden;
     border-radius: 55px;
 }
 .lienhe a{
@@ -39,11 +59,12 @@ body{
     font-size: 21px;
     font-family: open sans,arial,sans-serif;
     float: right;
-    margin-top: 13px;
+    margin-top: 18px;
     margin-right: 3%;
     padding-top: 4px;
 }
 .lienhe a:hover{
+
     background-image: -webkit-radial-gradient(right,rgb(202, 66, 66),rgb(219, 219, 65));
 }
 .trangchu a:hover{
@@ -51,6 +72,13 @@ body{
 }
 .anhdepcuocsong a:hover{
     background-image: -webkit-radial-gradient(right,rgb(202, 66, 66),rgb(219, 219, 65));
+    background-image: -webkit-radial-gradient(right,rgb(150, 245, 171),rgb(224, 190, 127));
+}
+.anhdepcuocsong a:hover{
+    background-image: -webkit-radial-gradient(right,rgb(150, 245, 186),rgb(224, 190, 127));
+}
+.trangchu a:hover{
+    background-image: -webkit-radial-gradient(right,rgb(150, 245, 186),rgb(224, 190, 127));
 }
 .anhdepcuocsong a{
     float: right;
@@ -83,214 +111,153 @@ body{
     padding-top: 3px;
 }
 .body{
+    z-index: 1;
     background-color: lavenderblush;
+    width: 100%;
+    margin-top: -17px;
+}
+.tongnoidung{
+    width: 857px;
+    margin: auto;
+    margin-top: 70px;
 }
 .body h1{
-    width: 67%;
-    margin-left: 18%;
-    text-align: center;
     color: #FF9900;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-top: 100px;
+    text-align: center;
 }
-.body .phan1 .quest1{
+.body  .quest1{
     color: #006899;
     margin-top: 90px;
     font-size: 31px;
-    margin-left: 38px;
-    display: inline-block;
-    width: 46%;
-    float: left;
+    text-align: center;
 }
-.body .phan1 .noidung1{
+.connect div{
+   
+}
+.icon i{
+    text-align: center;
+
+}
+.body  .noidung1{
     font-size: 21px;
-    display: inline-block;
-    margin: 0px;
-    margin-left: 31px;
-    width: 50%;
     color: #222222;
-    text-align: justify;
-    float: left;
     line-height: 30px;
+}
+.noidung2{
+    font-size: 21px;
+    color: #222222;
 }
 .body .phan1 .noidung1 span{
     color: #006899;
 }
-.body .phan1 img{
-    width: 38%;
-    display: inline-block;
-    float: right;
-    margin-top: -349px;
-    margin-right: 5%;
-    margin-left: 74px;
+ .container{
+   width: 100%;
+   margin-top: 170px;
+   background-color: #ffc1d654;
+   overflow: auto;
+   
 }
-.body .phan2{
-    margin-top: 560px;
-    background-color: #ffc1d654;
-    height: 260px;
-}
-.body .phan2 .connect{
-    margin-left: 25px;
-    padding-top: 2%;
-    display: inline-block;
+.contact{
     width: 30%;
+    margin-left: 5px;
+    margin-top: 6px;
     float: left;
 }
-.body .phan2 .connect .icon{
+.learn{
+    width:30% ;
     float: left;
+    margin-left: 30px;
+    margin-top: 6px;
+}
+
+.ketnoi{
+    text-align: center; 
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.hoctap{
+    text-align: center; 
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 25px;
+    width: 85%;
+}
+.noidunghoctap{
+    margin: auto;
+    font-size: 21px; 
+    margin-top: 4px;
+}
+ .icon{
     background-color: rgb(26, 115, 232);
     width: 49px;
     height: 38px;
     text-align: center;
     border-radius: 500px;
     padding-top: 11px;
+    margin: auto;
 }
-.body .phan2 .connect .icon i{
+.icon i{
     font-size: 27px;
     color: white;
 }
-.body .phan2 .connect .p1{
-    display: inline-block;
-    margin-top: 63px;
-    margin-left: -47px;
-    font-weight: bolder;
-    color: #9883a8;
-    font-size: 20px;
-    font-family: sans-serif;
-    margin-bottom: 12px;
+.noidungketnoi{
+    margin: auto;
+    font-size: 21px;
+    margin-top:46px ;
 }
-.body .phan2 .connect .p2{
-    display: inline-block;
-    color: #6b5b78;
-    width: 100%;
-    font-size: 18px;
-    margin-top: 0px;
-    text-align: justify;
-}
-.body .phan2 .learn{
-    display: inline-block;
+.grow{
     width: 30%;
     float: left;
+    margin-top: 6px;
+    margin-left: 30px;
 }
-.body .phan2 .learn .icon{
-    display: inline-block;
-    margin-top: 22px;
-    margin-left: 45px;
-    float: left;
-    background-color: rgb(26, 115, 232);
-    width: 49px;
-    height: 38px;
-    text-align: center;
-    border-radius: 500px;
-    padding-top: 11px;
+.phattrien{
+    text-align: center; 
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 25px; 
 }
-.body .phan2 .learn .icon i{
-    color: white;
-    font-size: 24px;
-}
-.body .phan2 .learn .p1{
-    display: inline-block;
-    margin-top: 94px;
-    margin-left: -47px;
-    font-weight: bolder;
-    color: #9883a8;
-    font-size: 20px;
-    font-family: sans-serif;
-    margin-bottom: 12px;
-}
-.body .phan2 .learn .p2{
-    display: inline-block;
-    color: #6b5b78;
-    width: 100%;
-    font-size: 18px;
-    margin-top: 0px;
-    text-align: justify;
-    margin-left: 45px;
-    
-}
-.body .phan2 .grow{
-    display: inline-block;
-    width: 30%;
-    height: 89%;
-    float: left;
-}
-.body .phan2 .grow .icon{
-    display: inline-block;
-    margin-top: 22px;
-    margin-left: 65px;
-    float: left;
-    background-color: rgb(26, 115, 232);
-    width: 49px;
-    height: 38px;
-    text-align: center;
-    border-radius: 500px;
-    padding-top: 11px;
-}
-.body .phan2 .grow .icon i{
-    color: white;
-    font-size: 24px;
-}
-.body .phan2 .grow .p1{
-    display: inline-block;
-    margin-top: 94px;
-    margin-left: -47px;
-    font-weight: bolder;
-    color: #9883a8;
-    font-size: 20px;
-    font-family: sans-serif;
-    margin-bottom: 12px;
-}
-.body .phan2 .grow .p2{
-    display: inline-block;
-    color: #6b5b78;
-    width: 100%;
-    font-size: 18px;
-    margin-top: 0px;
-    text-align: justify;
-    margin-left: 66px;
+.noidungphattrien{
+    margin: auto;
+    font-size: 21px;
+    margin-top:46px ;
 }
 
 
 .phan3{
-    width: 100;
-    height: 3135px;
-    background-color: lavenderblush;
+    width: 857px;
+    height:3400px;
+    margin: auto;
+    margin-top: 30px;
 }
 .phan3 .phanmodau{
 width: 100%;
 height: 280px;
+text-align: center;
 }
 .phan3 .phanmodau h2{
-    display: inline-block;
-    margin-left: 3%;
     color: #006899;
-    float: left;
     font-size: 31px;
 }
 .phan3 .phanmodau .noidung2{
     font-size: 21px;
-    display: inline-block;
-    margin: 0px;
-    margin-left: 36px;
-    width: 93%;
     color: #222222;
-    text-align: justify;
-    float: left;
     line-height: 30px;
+    text-align: justify;
 }
 .phan3 .sukien1{
-    width: 100%;
     height: 1180px;
     margin-top: 89px;
 }
 
 .phan3 .sukien1 h2{
-    margin-left: 3%;
     font-size: 29px;
+    text-align: center;
 }
 .phan3 .sukien1 .noidung{
-    margin-left: 3%;
+    text-align: justify;
+    font-size: 21px; 
 }
 .phan3 .sukien1 .noidung p{
     font-size: 21px;
@@ -299,6 +266,9 @@ height: 280px;
 .phan3 .sukien1 .danhsach{
     list-style: decimal;
     font-size: 23px;
+}
+.danhsach li{
+    margin-left:  -17px;
 }
 .phan3 .sukien1 .danhsach .dacbiet{
     color: red;
@@ -332,12 +302,7 @@ height: 280px;
     list-style: decimal;
     font-size: 23px;
 }
-.phan3 .sukien2 .noidung .danhsach ul{
 
-}
-.phan3 .sukien2 .noidung .danhsach ul p{
-
-}
 .phan3  .sukien2 .hinhanhsk2 img{
     width: 23%;
     float: left;
@@ -351,21 +316,18 @@ height: 280px;
     width: 100%;
     height: 220px;
     background-image: linear-gradient(to right,#FCA5F1,#B5FFFF);
+
+    height: 300px;
 }
-.bottom{
 
 }
-.bottom .thanhngu{
-    
-}
+
 .bottom .thanhngu .noidung{
-    margin-top: 0px;
     text-align: center;
-    width: 58%;
-    margin: auto;
-    padding-top: 24px;
+    padding-top: 50px;
 }
 .bottom .thanhngu .tacgia{
+   
     text-align: center;
     margin-top: 7px;
 }
@@ -379,6 +341,17 @@ height: 280px;
     border-radius: 500px;
     margin: auto;
 }
+
+.tongbottom{
+    width: 857px;
+    margin: auto;
+}
+@media only screen and (max-width: 1500px){
+    .body{
+     width: 100%;
+    }
+  }
+=======
 .scrolltop{
     font-size: 15px;
     position: fixed;
@@ -396,3 +369,4 @@ height: 280px;
 .scrolltop :hover{
     transform: scale(1.5);
 }
+
