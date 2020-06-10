@@ -13,11 +13,11 @@ class Q1 {
     }
    @Test
   public void testbiggerthanInt() {
-	   assertTrue(c.add(2105000023, 2121000000)>2000000000);
+	   assertEquals(c.add(Integer.MAX_VALUE, 1),Integer.MAX_VALUE+1);
    }
    @Test
    public void testSmallerThanInt() {
-	   assertTrue(c.add(-2105000023, -2121000000)<-2000000000);
+	   assertEquals(c.add(Integer.MIN_VALUE,-1),Integer.MIN_VALUE-1);
    }
 	
 
